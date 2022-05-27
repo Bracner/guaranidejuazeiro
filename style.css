@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+:root{
+    --cor-vermelho: #d2232a;
+    --cor-amarelo: #fad43b;
+
+
+}
+body{
+    background-color: #e4e4e4;
+    margin: 0;
+}
+.menu2{
+    right: 0;
+    background-color:rgba(0, 0, 0, 0.8);
+    top: 0px;
+    position: fixed;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu2 img{
+    width: 90px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 40px;
+
+}
+.menu2  a img{
+    width: 49px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    position: relative;
+flex-wrap: wrap;    
+
+}
+.menu2  a img:hover{
+    background-color:rgba(78, 78, 78, 0.8);
+    
+}
+
+
+
+
+
+
+.menu ul{
+     list-style: none;
+     background-color: black;
+    
+     padding-left: 60%;
+     margin-top: 0px;
+     padding-top: 0px;
+     
+}
+.menu ul li{
+    display: inline-block;
+  
+}
+.menu ul li:hover{
+    display: inline-block;
+    background-color: rgb(71, 71, 71);
+  
+}
+.menu ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Bahnschrift;
+    
+}
+.menu1 img{
+    width: 180px;
+    margin-top: -90px;
+    position: absolute;
+    padding-left: 90px;
+}
+
+.menu1{
+    background-color: var(--cor-vermelho);
+    padding: 0px;
+    position: relative;
+
+}
+.menu1 h1{
+    padding-top: 50px;
+    font-family: Bahnschrift;
+    padding-left: 280px;
+    font-size: 50px;
+    color: var(--cor-amarelo);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.noticias{
+    position: relative;
+    align-items: center;
+}
+.noticias a:hover{
+    opacity: 80%;
+}
+.noticias a #img1{
+    width: 650px;
+}
+.noticias a #img2{
+    width: 650px;
+}
+
+.nextgame{
+    margin-left: 15%;
+    margin-bottom: 0px;
+}
+.nextgame h4{
+    font-family: Koulen;
+    font-size: 30px;
+    margin-bottom: 0px;
+
+}
+
+.nextgame img{
+    bottom: 0px;
+    box-shadow: 0px 5px 8px black;
+}
+
+.nextgame img:hover{
+    opacity: 80%;
+}
